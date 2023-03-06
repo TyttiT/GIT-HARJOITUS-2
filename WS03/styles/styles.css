@@ -16,8 +16,8 @@ ul {
 ol {
     list-style: lower-alpha;
 }
-div.red {
-    background-color: red;
+div.blue {
+    background-color: blue;
     height: 100px;
     width: 100px;
     border: 2px dotted green;
