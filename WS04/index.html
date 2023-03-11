@@ -9,7 +9,7 @@
         <h1>My first Heading</h1>
         <p>My first paragraph.</p>
         <ol>
-            <li>first ordered row</li>
+            <li><a href="#linkki_tahan">first ordered row, tämä linkki vie alemmas sivulla</a></li>
             <li>second ordered row</li>
         </ol>
         <p>My second paragraph.</p>        
@@ -20,13 +20,57 @@
         <p>My third paragraph.</p>
         <div class="blue"> This text comes to inside of blue box.
         </div>
-
-    <progress value="22" max="100">progress bar</progress>
-
-    <div class="yellow"> This text comes to inside of yellow box.
-    </div>
-    <p style ="border: 1px solid white">Foo bar</p>
-    <a href="#" style="border:1px solid white;">Click me</a> ==$0
+        <div class="yellow"> This text comes to inside of yellow box.
+        </div>
     
+        <progress value="20" max="100"></progress><br>
+        <progress value="50" max="100">50</progress>Progress towards our goal
+    <p>meter value Displays a visual gauge of a numeric value 
+        within a known range</p>
+    <p>progress Displays a bar that depicts a numeric 
+        value within a specified range</p>
+    <p class="Foobar1">Foo bar</p>
+    <p class="Foobar1">Tämä kirjoitettu p elementtien sisään. Class Foobar1 html tiedostoon. ja lisätty style tiedostoon p.foobar1 border 1px solid white. 
+        Koska kyseessä p-elmentti kuten myös yllä oleva Foo bar teksti menee border koko sivun laidasta laitaan.
+    </p>
+    <hr>
+
+    <p style ="border: 1px solid yellow">Foo bar</p>
+    <p style ="border: 1px solid yellow">Tässä style kirjoitettu html tiedostoon style komennolla. kuten myös yllä olevassa Foo bar tekstissä.
+    Border 1 px solid yellow.</p>
+    <p>Alal olevassa Click me tekstissä kyseessä linkki, joten border vie tilan vain tekstin ympäriltä. html tiedostossa risuaidan kohdalle tulisi URL</p>
+    <a href="#" style="border:1px solid white;">Click me</a>
+    <p>Voit myös laittaa erilasiet borderit eri sivuille. border-top, border-left, border-right ja border-bottom komennoilla.
+        Tai tehdä kulmia border-radius: esim. 20px.
+    </p>
+    <p>paddig komennolla saadaan tilaa borderin ja tekstin väliin. ja Margin komennolla elementin ympärille</p>
+    <a href="#" style="border:1px solid white; padding: 5px">Click me</a>
+    <a href="#" style="border:1px solid white; padding: 5px 10px 15px 20px">Click me</a>    
+    <a href="#" style="border:1px solid white; padding: 5px 10px 15px 20px; margin: 20px; border-radius: 15px">Click me</a>
+<p>Ylhäällä oleva linkki tuo tähän kohtaan sivua.</p>
+<figure>
+    <img src="kuvat/kuva1.jpg" alt="kuvan muodot" height="300"/>
+    <figcaption>Kuvateksti kuvalle1</figcaption>  
+</figure> 
+<meter value="14417" min="0" max="14417">14417</meter>14,417 Total Visits<br>
+<meter value="7000" min="0" max="14417">7000</meter> 7,000 Firefox<br>
+<meter value="3800" min="0" max="14417">3800</meter> 3,800 Internet Explorer<br> 
+
+<p>ks läpi 04 pdf pajon erilaisia vaihtoehtoja kuville nettisivuilla.</p>
+
+<figure>
+    <img src="kuvat/green3.jpg" alt="vihreä"/>
+    <figcaption>Kuvateksti vihreälle neliölle</figcaption>  
+</figure> 
+<p>alla on linkki joka aukeaa uuteen ikkunaan, mutta target blank ei tarvita koska automaattisesti kaikki aukeaa uuteen ikkunaan.</p>
+<a target="_blank" href="https://www.laurea.fi/">tässä on linkki</a>
+
+<p id="linkki_tahan">alla on linkki, joka aukeaa kuvaa painamalla tai tekstiä painamalla</p>
+<a target="_blank" href="https://www.laurea.fi/">tässä on linkki ja kuvassa on linkki
+    <p><img src="kuvat/green3.jpg" alt="vihreä" height="30"/></p>
+
+</a>
+<h2>Background picture for h2 element</h2>
+
     </body>
 </html>

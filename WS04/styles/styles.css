@@ -2,9 +2,15 @@ body {
     background-color:black;
     color:white;
     font-size: 10px;
+    background-image: url('/WS04/git.gif');
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+
 }
 h1{
     font-size: 20px;
+    background-color:aqua
 }
 p{
     color:lightgray;
@@ -21,10 +27,20 @@ div.blue {
     height: 100px;
     width: 100px;
     border: 2px dotted white;
+    opacity: 0.2;
 }
 div.yellow {
     background-color:yellow;
     height: 100px;
     width: 100px;
     border: 2px dashed white;
+}
+p.Foobar1{
+    border: 1px solid white
+}
+img{
+    border: 2px dashed white;
+}
+h2{
+    background-image: url('/WS04/kuvat/green3.jpg');
 }
