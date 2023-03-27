@@ -10,7 +10,10 @@ h1{
     text-align: center;
     color: #C7FCEE;
 }
-#mainnav a:hover{color:red}
+#mainnav a:hover{color:red;}
+nav a {
+    text-decoration:none;
+}
 #mainnavlist{
     display:block;
     list-style-type: none;
@@ -26,15 +29,15 @@ h1{
 }
 h2{border: 3px solid #C7FCEE
 }
-h3{color: #C7FCEE;
+h3{color: purple;
 }
 .musta{color: black;
 }
-#otsikko3{color: red;
+#otsikko3{color: rgb(248, 4, 248);
 }
 p{
     color: black;
-    font-size: 14px;
+    font-size: 12px;
 }
 ul {
     list-style: square;
@@ -45,15 +48,22 @@ ol {
 }
 div.blue {
     background-color: #aebefc;
+    width: 100px;
     height: 100px;
+    border: 2px dotted white;
+}
+div.blue1 {
+    background-color: #aebefc;
     width: 100px;
     border: 2px dotted white;
+    padding: 5px;
 }
 #bordered {
     color: #717EB0;
     border-style: dashed; 
     border-radius: 30px;
     padding: 5px 10px 5px 10px;
+    background-color: azure;
 }
 #div1 {
     float:right;
@@ -71,43 +81,44 @@ div.blue {
     padding:10px;
     margin-bottom: 5px;
 }
-
 #linkkilista{
     text-align: left;
     list-style-type: none;
     padding-left: 1px;
-
 }
 #linkit{
     float:left;
     width: 20%;
     text-align: left;
     margin-right: 5px;
-
-
 }
+.navi2{
+    padding-top:10px;
+}
+#ulkoisetlinkit a:active{color:red;}
 img#Meri {
     height: 100px;
 }
-#testip1{margin: 20px 0px 10px 50px;
-    border: solid 1px blue}
-#testip1a{margin:auto;
-    border:solid 1px blue}
-#testip2{border:5px ridge red;
-border-top: 10px ridge purple;
-padding: 15px;}
-#testip3{border:5px ridge red;
-    border-top: 10px ridge purple;}
-
+#margin{
+    clear:both;
+    margin:10px;
+    border: 2px solid black;
+}
+#testip2{
+    border:5px ridge purple;
+    margin: 5px 20px 5px 20px;
+    padding: 15px;
+}
 img#smile{
     width: 100px;
     float: left;
     margin-right: 10px;
     margin-bottom: 10px;
 }
-
-#margin{
+#footer{
     clear:both;
-    margin:10px;
-    border: 2px solid black;
+    background-color: lightgrey;
+    height: 30px;
+    text-align: center;
+    padding: 5px;
 }
