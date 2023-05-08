@@ -39,3 +39,8 @@ table, th, td {
   }
 
 .lomakeväri {background-color:rgb(255, 236, 221)}
+
+.henkilö {border-radius: 50%;}
+.center {
+    text-align: center;
+}
