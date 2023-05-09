@@ -8,15 +8,18 @@ h1{
     text-align: center;
     color: rgb(20.4, 48.6, 48.6);
     font-family:cursive;
+    box-shadow:5px 5px 10px 5px rgb(188, 217, 217); 
+    text-shadow:2px 2px 8px rgb(188, 217, 217)
 }
 h2{
     color: rgb(30.2, 55.7, 55.7);
-    background-color: rgb(188,217,217);
+    background-color: rgb(188,217,217,0.4);
     padding:5px;
+    box-shadow:10px 50px 100px 5px rgb(188, 217, 217);
 }
 h3{
     color: rgb(57.6, 75.3, 75.3);
-    background-color: rgb(188,217,217);
+    background-color: rgb(188,217,217,0.4);
     padding:3px;
 }
 h4{
@@ -27,7 +30,8 @@ h4{
 h5{
     font-family:cursive;
     background-image: url("../Images/h5.jpg");
-    padding: 7px 20px 7px 20px;    
+    padding: 7px 20px 7px 20px;
+    box-shadow:5px 5px 20px 5px rgb(188, 217, 217);   
 }
 
 #taulukonotsikko {background-color: rgb(255, 241,230)}
@@ -44,3 +48,21 @@ table, th, td {
 .center {
     text-align: center;
 }
+
+a:link { 
+    transition: all 5s linear 0;
+    color: rgb(207, 86, 86); 
+    } 
+a:hover { 
+    color: rgb(207, 141, 86); 
+    }
+a:visited:hover { 
+    color: rgb(207, 141, 86); 
+    }
+a:visited {
+    color: rgb(52, 124, 124);
+    }
+a:active{
+    color: rgb(69, 165, 69);
+    }
+
